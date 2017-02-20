@@ -38,7 +38,7 @@ public final class ArrayStack<T> implements StackInterface<T>
   private void checkCapacity(int capacity)
   {
     if (capacity > MAX_CAPACITY)
-      throw new IllegalStateException("Attempt to create a bag whose capacity exeeds allowed "
+      throw new IllegalStateException("Attempt to create a stack whose capacity exeeds allowed "
                                         + "maximum of " + MAX_CAPACITY);
   }
   
